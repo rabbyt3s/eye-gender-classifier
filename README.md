@@ -68,8 +68,7 @@ Features:
 ## Model Performance
 
 ### Training History
-![Training and Validation Loss](docs/loss.png)
-![Training and Validation Accuracy](docs/accuracy.png)
+![Statistics](docs/training_metrics.png)
 
 ## Model Performance Monitoring
 - Best model weights are saved automatically
