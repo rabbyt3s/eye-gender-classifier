@@ -47,7 +47,7 @@ The CNN architecture is optimized for eye feature extraction:
 ## Usage
 
 ### Training
-python train.py
+```python train.py```
 
 The script will:
 - Load and preprocess the eye images
@@ -57,7 +57,7 @@ The script will:
 - Create performance plots in docs/
 
 ### Prediction
-python predict.py
+```python predict.py```
 
 Features:
 - File picker dialog for image selection
