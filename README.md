@@ -37,7 +37,7 @@ The CNN architecture is optimized for eye feature extraction:
 ## Setup and Installation
 
 ### Prerequisites
-pip install tensorflow numpy pillow
+```pip install tensorflow numpy pillow```
 
 ### Directory Setup
 1. Create a `train` directory
