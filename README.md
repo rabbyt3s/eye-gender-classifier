@@ -34,20 +34,6 @@ The CNN architecture is optimized for eye feature extraction:
   - Horizontal flipping
   - Image normalization (1/255 scaling)
 
-## Project Structure
-
-gender_class/
-|-- train.py          # Training script with model definition
-|-- predict.py        # Inference script with file picker
-|-- train/           # Training data directory
-|   |-- male/        # Male eye images
-|   `-- female/      # Female eye images
-|-- best_model.keras  # Saved weights of best performing model
-|-- training_log.csv  # Training metrics history
-`-- docs/            # Documentation assets
-    |-- loss.png     # Training/validation loss plot
-    `-- accuracy.png # Training/validation accuracy plot
-
 ## Setup and Installation
 
 ### Prerequisites
