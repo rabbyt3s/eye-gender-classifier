@@ -53,8 +53,7 @@ The script will:
 - Load and preprocess the eye images
 - Train the CNN model
 - Save the best performing model
-- Generate training metrics
-- Create performance plots in docs/
+- Generate training metrics in a CSV file
 
 ### Prediction
 ```python predict.py```
