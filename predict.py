@@ -10,7 +10,8 @@ def load_and_preprocess_image(image_path):
     img = Image.open(image_path)
     if img.mode != 'RGB':
         img = img.convert('RGB')
-    img = img.resize((IMG_SIZE, IMG_SIZE))
+    img = img.resize((IMG_SIZE, IMG_SIZE), Image.Resampling.LANCZOS)
+    debug_save_resized(img, image_path)
     img_array = np.array(img) / 255.0
     return np.expand_dims(img_array, axis=0)
 
